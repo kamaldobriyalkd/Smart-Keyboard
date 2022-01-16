@@ -1,11 +1,7 @@
 Smart Keyboard
 ========================================================
-author: by Kamal Dobriyal
-date: 09-01-2022
-autosize: true
 
-Quick Overview
-========================================================
+## Quick Overview
 
 <strong>Smart Keyboard</strong> is a web app working on NLP n_grams models.
 
@@ -15,8 +11,7 @@ The user just have to enter text on given text field and as soon as space is ent
 
 Eventually user sees atmost three words in green color which are predicted by the app.
 
-Data Usage
-========================================================
+## Data Usage
 
 We have use US_News, Us_Blogs, and US_Twitter comments for generating corpus. Dataset Link: [Data](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)<br>
 Then we have preprocessed all the data and combined it to form a single corpus.<br>
@@ -27,8 +22,7 @@ Library and techniques used:
 We removed all the punctuations except apostrophe sign as it was very prevalent, also removed the hash-tags because they were without space.
 
 
-Backend & Predictive Model
-========================================================
+## Backend & Predictive Model
 
 In the backend, we have already loaded three n_grams i.e., <strong>biGrams</strong>, <strong>triGrams</strong> and <strong>quadGrams</strong>.
 
@@ -38,8 +32,7 @@ Then based on the tokens generated from the input text, subsequent n_grams datas
 
 And top three n_gram with highest probability is spit out by the repective n_gram function and passed to the UI.
 
-App Link
-========================================================
+## App Link
 
 Hope you like the app overview if you are really interested please check out the app.
 
